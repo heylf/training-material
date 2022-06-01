@@ -5,8 +5,12 @@
   "priority": 2,
   "tags": [
     "bulk",
-    "rna-seq"
+    "rna-seq",
+    "collections",
+    "drosophila",
+    "QC"
   ],
+  "level": "Introductory",
   "zenodo_link": "https://zenodo.org/record/4541751",
   "questions": [
     "What are the steps to process RNA-Seq data?",
@@ -111,9 +115,17 @@
       "bio": "Research at the South African National Bioinformatics Institute",
       "id": "pvanheus",
       "url": "https://training.galaxyproject.org/training-material/api/contributors/pvanheus.json"
+    },
+    {
+      "name": "Lucille Delisle",
+      "email": "lucille.delisle@epfl.ch",
+      "orcid": "0000-0002-1964-4960",
+      "joined": "2019-08",
+      "id": "lldelisle",
+      "url": "https://training.galaxyproject.org/training-material/api/contributors/lldelisle.json"
     }
   ],
-  "last_modified_at": "2021-07-09T14:39:52+00:00",
+  "last_modified_at": "2022-05-09T07:39:01+00:00",
   "url": "/topics/transcriptomics/tutorials/ref-based/tutorial.html",
   "topic_name": "transcriptomics",
   "tutorial_name": "ref-based"

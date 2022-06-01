@@ -276,7 +276,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:33:39 +0000",
+  "dateModified": "1970-01-01 00:33:42 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Galaxy Installation on Kubernetes",
   "interactivityType": "mixed",
@@ -341,7 +341,7 @@
     },
     {
       "@type": "Person",
-      "name": "Sergey Golitsynskiy"
+      "name": "John Davis"
     }
   ],
   "contributor": [
@@ -363,7 +363,7 @@
     },
     {
       "@type": "Person",
-      "name": "Sergey Golitsynskiy"
+      "name": "John Davis"
     }
   ],
   "about": [
@@ -382,24 +382,31 @@
     <h1 data-toc-skip>Galaxy Installation on Kubernetes</h1>
     
 
+    <div markdown="0">
 
-    <div class="contributors-line">Authors: 
+	<div class="contributors-line">
+		Authors: 
 <a href="/training-material/hall-of-fame/pcm32/" class="contributor-badge contributor-pcm32"><img src="https://avatars.githubusercontent.com/pcm32?s=27" alt="Avatar">Pablo Moreno</a>
+
 
 
 <a href="/training-material/hall-of-fame/afgane/" class="contributor-badge contributor-afgane"><img src="https://avatars.githubusercontent.com/afgane?s=27" alt="Avatar">Enis Afgan</a>
 
 
+
 <a href="/training-material/hall-of-fame/nuwang/" class="contributor-badge contributor-nuwang"><img src="https://avatars.githubusercontent.com/nuwang?s=27" alt="Avatar">Nuwan Goonasekera</a>
+
 
 
 <a href="/training-material/hall-of-fame/almahmoud/" class="contributor-badge contributor-almahmoud"><img src="https://avatars.githubusercontent.com/almahmoud?s=27" alt="Avatar">Alex Mahmoud</a>
 
 
-<a href="/training-material/hall-of-fame/ic4f/" class="contributor-badge contributor-ic4f"><img src="https://avatars.githubusercontent.com/ic4f?s=27" alt="Avatar">Sergey Golitsynskiy</a>
+
+<a href="/training-material/hall-of-fame/jdavcs/" class="contributor-badge contributor-jdavcs"><img src="https://avatars.githubusercontent.com/jdavcs?s=27" alt="Avatar">John Davis</a>
 
 
-<a href="https://training.galaxyproject.org/training-material/topics/contributing/" class="contributor-badge contributor-newcontributors"><i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span>Add Contributions!</a>
+
+	</div>
 
 </div>
 
@@ -473,9 +480,19 @@
             
             
             
+                 <li class="btn btn-default supporting_material">
+    <a class="topic-icon" href="/training-material/topics/admin/tutorials/k8s-deploying-galaxy/faqs/" title="Frequently Asked Questions" alt="Tutorial FAQs">
+        <i class="far fa-question-circle" aria-hidden="true"></i> FAQs
+    </a>
+  </li>
+
+
+            
 
             <!-- Check the GTN Video Library for recordings of this tutorial or associated slides -->
             
+
+
 
 
 
@@ -495,7 +512,7 @@
         </ul>
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Jul 6, 2019 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> May 29, 2022 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -784,11 +801,14 @@ on Gitter: <a href="https://gitter.im/galaxyproject/FederatedGalaxy">https://git
                 
 
                 <h1>Frequently Asked Questions</h1>
-                Have questions about this tutorial? Check out the  <a href="/training-material/topics/admin/faqs/">FAQ page for the Galaxy Server administration topic</a> to see if your question is listed there.
+                Have questions about this tutorial? Check out the <a href="faqs/">tutorial FAQ page</a> or the  <a href="/training-material/topics/admin/faqs/">FAQ page for the Galaxy Server administration topic</a> to see if your question is listed there.
                 If not, please ask your question on the <a href="https://gitter.im/Galaxy-Training-Network/Lobby">GTN Gitter Channel</a> or the
                 <a href="https://help.galaxyproject.org">Galaxy Help Forum</a>
 
                 
+
+                
+
 
                 
 
@@ -827,12 +847,10 @@ on Gitter: <a href="https://gitter.im/galaxyproject/FederatedGalaxy">https://git
                     })(window, document);
                 </script>
 
-
-
                 <h1>Citing this Tutorial</h1>
                 <p>
                     <ol>
-                        <li id="citation-text">Pablo Moreno, Enis Afgan, Nuwan Goonasekera, Alex Mahmoud, Sergey Golitsynskiy, 2019 <b>Galaxy Installation on Kubernetes (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html">https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html</a> Online; accessed TODAY
+                        <li id="citation-text">Pablo Moreno, Enis Afgan, Nuwan Goonasekera, Alex Mahmoud, John Davis, 2022 <b>Galaxy Installation on Kubernetes (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html">https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html</a> Online; accessed TODAY
                         </li>
                         <li>
                         Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -847,11 +865,11 @@ on Gitter: <a href="https://gitter.im/galaxyproject/FederatedGalaxy">https://git
 
                 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight">
 <code id="citation-code">@misc{admin-k8s-deploying-galaxy,
-author = "Pablo Moreno and Enis Afgan and Nuwan Goonasekera and Alex Mahmoud and Sergey Golitsynskiy",
+author = "Pablo Moreno and Enis Afgan and Nuwan Goonasekera and Alex Mahmoud and John Davis",
 title = "Galaxy Installation on Kubernetes (Galaxy Training Materials)",
-year = "2019",
-month = "07",
-day = "06"
+year = "2022",
+month = "05",
+day = "29"
 url = "\url{https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
@@ -871,6 +889,8 @@ note = "[Online; accessed TODAY]"
                 </pre></div></div>
                 </p>
                 </blockquote>
+
+                
 
 
 <script type="text/javascript">
@@ -960,6 +980,8 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
                                 
                             
                             </li>
+                        
+                    
                         
                     
                         

@@ -276,7 +276,7 @@
     "name": "Galaxy Training Network",
     "url": "https://galaxyproject.org/teach/gtn/"
   },
-  "dateModified": "1970-01-01 00:33:40 +0000",
+  "dateModified": "1970-01-01 00:33:42 +0000",
   "discussionUrl": "https://gitter.im/Galaxy-Training-Network/Lobby",
   "headline": "Contributing with GitHub via command-line",
   "interactivityType": "mixed",
@@ -356,15 +356,19 @@
     <h1 data-toc-skip>Contributing with GitHub via command-line</h1>
     
 
+    <div markdown="0">
 
-    <div class="contributors-line">Authors: 
+	<div class="contributors-line">
+		Authors: 
 <a href="/training-material/hall-of-fame/cmonjeau/" class="contributor-badge contributor-cmonjeau"><img src="https://avatars.githubusercontent.com/cmonjeau?s=27" alt="Avatar">Cyril Monjeaud</a>
+
 
 
 <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge contributor-bebatut"><img src="https://avatars.githubusercontent.com/bebatut?s=27" alt="Avatar">Bérénice Batut</a>
 
 
-<a href="https://training.galaxyproject.org/training-material/topics/contributing/" class="contributor-badge contributor-newcontributors"><i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span>Add Contributions!</a>
+
+	</div>
 
 </div>
 
@@ -442,9 +446,19 @@
             
             
             
+                 <li class="btn btn-default supporting_material">
+    <a class="topic-icon" href="/training-material/topics/contributing/tutorials/github-command-line-contribution/faqs/" title="Frequently Asked Questions" alt="Tutorial FAQs">
+        <i class="far fa-question-circle" aria-hidden="true"></i> FAQs
+    </a>
+  </li>
+
+
+            
 
             <!-- Check the GTN Video Library for recordings of this tutorial or associated slides -->
             
+
+
 
 
 
@@ -465,7 +479,7 @@
 
 
     <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
-        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span> Available on these Galaxies 
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>&nbsp;Available on these Galaxies 
     </a>
     <ul class="dropdown-menu">
     
@@ -484,7 +498,7 @@
         </ul>
         
 
-        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> Dec 14, 2020 </div>
+        <div><strong><i class="far fa-calendar" aria-hidden="true"></i> Last modification:</strong> May 19, 2022 </div>
         <div><strong><i class="fas fa-balance-scale" aria-hidden="true"></i> License:</strong>
             
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Tutorial Content is licensed under Creative Commons Attribution 4.0 International License</a>
@@ -536,6 +550,7 @@
   <li><a href="#make-the-requested-changes" id="markdown-toc-make-the-requested-changes">Make the requested changes</a></li>
   <li><a href="#check-the-automatic-tests" id="markdown-toc-check-the-automatic-tests">Check the automatic tests</a></li>
   <li><a href="#stay-up-to-date" id="markdown-toc-stay-up-to-date">Stay up to date</a></li>
+  <li><a href="#close-the-pull-request" id="markdown-toc-close-the-pull-request">Close the Pull Request</a></li>
 </ol>
 
 </blockquote>
@@ -621,7 +636,7 @@
 
 <p>When you’re working on a project, you’re going to have a bunch of different features or ideas in progress at any given time – some of which are ready to go, and others which are not. Branching exists to help you manage this <span class="notranslate">workflow</span>. You should develop different features on different branches to help keep the changes you make simple and easy to review.</p>
 
-<figure id="figure-4"><img src="../../images/PR_branches_01.png" alt="Divergence of a branch compared to master. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 4:</span> When you create a branch in your project, you're creating an environment where you can try out new ideas. Changes you make on a branch don't affect the master branch</figcaption></figure>
+<figure id="figure-4"><img src="../../images/PR_branches_01.png" alt="Divergence of a branch compared to main. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 4:</span> When you create a branch in your project, you're creating an environment where you can try out new ideas. Changes you make on a branch don't affect the main branch</figcaption></figure>
 
 <p>Here for this tutorial, you will create a branch called “my_new_branch” in which you will modify the <code class="language-plaintext highlighter-rouge">CONTRIBUTORS.yaml</code> file, the file used to generate the <a href="/training-material/hall-of-fame.html">Hall of Fame</a>.</p>
 
@@ -633,7 +648,7 @@
       <p>List the existing branch</p>
 
       <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git branch
-  * master
+  * main
 </code></pre></div>      </div>
 
       <p>The branch on which you are is shown with the <code class="language-plaintext highlighter-rouge">*</code></p>
@@ -657,9 +672,9 @@ Switched to a new branch 'my_new_branch'
 
 <h1 id="make-your-changes-on-this-branch">Make your changes on this branch</h1>
 
-<p>You have created your first branch! Now you want to make the change in the <code class="language-plaintext highlighter-rouge">CONTRIBUTING.yaml</code> file. By changing a file in this branch, it will diverge from the <code class="language-plaintext highlighter-rouge">master</code> branch. It will contain data that is only on this new branch:</p>
+<p>You have created your first branch! Now you want to make the change in the <code class="language-plaintext highlighter-rouge">CONTRIBUTING.yaml</code> file. By changing a file in this branch, it will diverge from the <code class="language-plaintext highlighter-rouge">main</code> branch. It will contain data that is only on this new branch:</p>
 
-<figure id="figure-6"><img src="../../images/PR_branches_02.png" alt="Divergence of the branch compared to master. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 6:</span> The changes on your branch will not be on the master branch</figcaption></figure>
+<figure id="figure-6"><img src="../../images/PR_branches_02.png" alt="Divergence of the branch compared to main. " loading="lazy" /><figcaption><span class="figcaption-prefix">Figure 6:</span> The changes on your branch will not be on the main branch</figcaption></figure>
 
 <blockquote class="notranslate hands_on">
   <h3 id="hands_on-hands-on-make-changes-in-a-branch"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden">hands_on</span> Hands-on: Make changes in a branch</h3>
@@ -721,7 +736,7 @@ $ git commit -m "Add ..."
     <li>Change to the “my_new_branch” branch:
       <ol>
         <li>
-          <p>Click on <strong>Branch: master</strong> (left)</p>
+          <p>Click on <strong>Branch: main</strong> (left)</p>
 
           <p><img src="../../images/PR_branch_github.png" alt="Selecting branch on GitHub. " loading="lazy" /></p>
         </li>
@@ -754,7 +769,7 @@ $ git commit -m "Add ..."
       <p><img src="../../images/PR_button.png" alt="&quot;Opening a pull request&quot;. " loading="lazy" /></p>
     </li>
     <li>
-      <p>Check that the selected branch are correct: <strong>master</strong> on the left and your branch name on the right</p>
+      <p>Check that the selected branch are correct: <strong>main</strong> on the left and your branch name on the right</p>
 
       <p><img src="../../images/PR_branch_check.png" alt="Branches in PR. " loading="lazy" /></p>
     </li>
@@ -776,7 +791,7 @@ $ git commit -m "Add ..."
 <p>Once the pull is open, it will be reviewed. There are two possible outcomes:</p>
 
 <ol>
-  <li>Your pull request is accepted. Congratulations! Your changes will be merged into the master branch of the original repository. The website will be re-built and you will be in the <a href="/training-material/hall-of-fame.html">Hall of Fame</a></li>
+  <li>Your pull request is accepted. Congratulations! Your changes will be merged into the main branch of the original repository. The website will be re-built and you will be in the <a href="/training-material/hall-of-fame.html">Hall of Fame</a></li>
   <li>Your pull request needs modifications: the reviewers will ask for some changes, possibly because the automatic tests are failing.</li>
 </ol>
 
@@ -873,9 +888,9 @@ $ git commit -m "Add ..."
 
   <ol>
     <li>
-      <p>Move to the <code class="language-plaintext highlighter-rouge">master</code> branch</p>
+      <p>Move to the <code class="language-plaintext highlighter-rouge">main</code> branch</p>
 
-      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git checkout master
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git checkout main
 </code></pre></div>      </div>
     </li>
     <li>
@@ -892,7 +907,7 @@ $ git commit -m "Add ..."
     <li>
       <p>Update the local copy of the repository by “pulling” in the content of the original GitHub repository</p>
 
-      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git pull <span class="notranslate">upstream</span> master
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git pull <span class="notranslate">upstream</span> main
 </code></pre></div>      </div>
     </li>
   </ol>
@@ -900,6 +915,29 @@ $ git commit -m "Add ..."
 </blockquote>
 
 <p>You can now restart the GitHub flow to propose new changes: start by <a href="#create-a-new-branch">creating a new branch</a>.</p>
+
+<h1 id="close-the-pull-request">Close the Pull Request</h1>
+
+<p>Great! You now know how to make pull request on GitHub, and how to make changes after a review.
+Reviewers can now approve and merge your pull request.</p>
+
+<p>Because this was just a practice pull request, let’s close it again.</p>
+
+<blockquote class="notranslate hands_on">
+  <h3 id="hands_on-hands-on-close-the-pull-request"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden">hands_on</span> Hands-on: Close the Pull Request</h3>
+
+  <p>Once you have run through all these steps, please close the pull request again.</p>
+
+  <ol>
+    <li>Go to the <a href="https://github.com/galaxyproject/training-material/pulls">list of pull request tab on GitHub</a></li>
+    <li>Click on your pull request</li>
+    <li>Scroll to the bottom of the page</li>
+    <li>Click on “Close pull request” button</li>
+  </ol>
+
+  <p>Whenever you add your first real contribution, you can add yourself to the <code class="language-plaintext highlighter-rouge">CONTRIBUTORS.yaml</code> file in that PR.</p>
+
+</blockquote>
 
 <h1 class="no_toc" id="conclusion">Conclusion</h1>
 
@@ -913,7 +951,7 @@ $ git commit -m "Add ..."
   <li>Create a new branch in your local copy</li>
   <li>Commit the changes in that branch</li>
   <li>Push that branch to your fork on GitHub</li>
-  <li>Submit a pull request from that branch to the master repository</li>
+  <li>Submit a pull request from that branch to the main repository</li>
   <li>Wait for feedbacks and make requested changes</li>
   <li>Update your local copy</li>
   <li>Restart the cycle</li>
@@ -958,11 +996,14 @@ $ git commit -m "Add ..."
                 
 
                 <h1>Frequently Asked Questions</h1>
-                Have questions about this tutorial? Check out the  <a href="/training-material/topics/contributing/faqs/">FAQ page for the Contributing to the Galaxy Training Material topic</a> to see if your question is listed there.
+                Have questions about this tutorial? Check out the <a href="faqs/">tutorial FAQ page</a> or the  <a href="/training-material/topics/contributing/faqs/">FAQ page for the Contributing to the Galaxy Training Material topic</a> to see if your question is listed there.
                 If not, please ask your question on the <a href="https://gitter.im/Galaxy-Training-Network/Lobby">GTN Gitter Channel</a> or the
                 <a href="https://help.galaxyproject.org">Galaxy Help Forum</a>
 
                 
+
+                
+
 
                 
 
@@ -1001,12 +1042,10 @@ $ git commit -m "Add ..."
                     })(window, document);
                 </script>
 
-
-
                 <h1>Citing this Tutorial</h1>
                 <p>
                     <ol>
-                        <li id="citation-text">Cyril Monjeaud, Bérénice Batut, 2020 <b>Contributing with GitHub via command-line (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/github-command-line-contribution/tutorial.html">https://training.galaxyproject.org/training-material/topics/contributing/tutorials/github-command-line-contribution/tutorial.html</a> Online; accessed TODAY
+                        <li id="citation-text">Cyril Monjeaud, Bérénice Batut, 2022 <b>Contributing with GitHub via command-line (Galaxy Training Materials)</b>. <a href="https://training.galaxyproject.org/training-material/topics/contributing/tutorials/github-command-line-contribution/tutorial.html">https://training.galaxyproject.org/training-material/topics/contributing/tutorials/github-command-line-contribution/tutorial.html</a> Online; accessed TODAY
                         </li>
                         <li>
                         Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -1023,9 +1062,9 @@ $ git commit -m "Add ..."
 <code id="citation-code">@misc{contributing-github-command-line-contribution,
 author = "Cyril Monjeaud and Bérénice Batut",
 title = "Contributing with GitHub via command-line (Galaxy Training Materials)",
-year = "2020",
-month = "12",
-day = "14"
+year = "2022",
+month = "05",
+day = "19"
 url = "\url{https://training.galaxyproject.org/training-material/topics/contributing/tutorials/github-command-line-contribution/tutorial.html}",
 note = "[Online; accessed TODAY]"
 }
@@ -1045,6 +1084,8 @@ note = "[Online; accessed TODAY]"
                 </pre></div></div>
                 </p>
                 </blockquote>
+
+                
 
 
 <script type="text/javascript">
@@ -1073,6 +1114,14 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
                             
                                 
                     <li><a href="/training-material/topics/contributing/tutorials/slides-with-video/tutorial.html">Adding auto-generated video to your slides</a></li>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                    <li><a href="/training-material/topics/contributing/tutorials/create-new-tutorial-quiz/tutorial.html">Adding Quizzes to your Tutorial</a></li>
                                 
                             
                         
