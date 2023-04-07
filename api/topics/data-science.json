@@ -218,8 +218,7 @@
         }
       ],
       "tags": [
-        "bash",
-        "jupyter-notebook"
+        "bash"
       ],
       "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/cli-advanced/tutorial.html",
@@ -321,9 +320,6 @@
         "pyolite": true
       },
       "last_modified_at": "2022-04-19T13:04:09+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-advanced-np-pd/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-advanced-np-pd",
@@ -600,8 +596,7 @@
         "SQL": "Structured Query Language"
       },
       "tags": [
-        "SQL",
-        "jupyter-notebook"
+        "SQL"
       ],
       "last_modified_at": "2022-05-19T13:08:08+00:00",
       "url": "/topics/data-science/tutorials/sql-advanced/tutorial.html",
@@ -756,8 +751,7 @@
         }
       ],
       "tags": [
-        "bash",
-        "jupyter-notebook"
+        "bash"
       ],
       "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/cli-basics/tutorial.html",
@@ -848,8 +842,7 @@
       ],
       "tags": [
         "game",
-        "bash",
-        "jupyter-notebook"
+        "bash"
       ],
       "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/cli-bashcrawl/tutorial.html",
@@ -947,9 +940,7 @@
       },
       "priority": 3,
       "tags": [
-        "R",
-        "jupyter-notebook",
-        "rmarkdown-notebook"
+        "R"
       ],
       "license": "MIT",
       "last_modified_at": "2021-12-21T10:14:03+00:00",
@@ -1051,9 +1042,6 @@
         "pyolite": true
       },
       "last_modified_at": "2022-04-19T13:04:09+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-basics/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-basics",
@@ -1186,8 +1174,7 @@
         "SQL": "Structured Query Language"
       },
       "tags": [
-        "SQL",
-        "jupyter-notebook"
+        "SQL"
       ],
       "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/sql-basic/tutorial.html",
@@ -1401,9 +1388,6 @@
         "pyolite": true
       },
       "last_modified_at": "2022-04-19T13:04:09+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-plotting/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-plotting",
@@ -1581,9 +1565,6 @@
         "language": "python"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-types/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-types",
@@ -1670,9 +1651,6 @@
         "language": "python"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-files/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-files",
@@ -1765,9 +1743,6 @@
         "language": "python"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-flow/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-flow",
@@ -1865,9 +1840,6 @@
         "DRY": "Don't Repeat Yourself"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-functions/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-functions",
@@ -1947,9 +1919,6 @@
         "language": "python"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-glob/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-glob",
@@ -2045,9 +2014,6 @@
         "ORF": "Open Reading Frame"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-basics-recap/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-basics-recap",
@@ -2142,9 +2108,6 @@
         "language": "python"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-iterables/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-iterables",
@@ -2245,9 +2208,6 @@
         "language": "python"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-loops/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-loops",
@@ -2329,9 +2289,6 @@
         "language": "python"
       },
       "last_modified_at": "2022-04-25T09:09:05+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-math/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-math",
@@ -2416,9 +2373,6 @@
         "language": "python"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-subprocess/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-subprocess",
@@ -2503,9 +2457,6 @@
         "language": "python"
       },
       "last_modified_at": "2022-04-25T09:25:02+00:00",
-      "tags": [
-        "jupyter-notebook"
-      ],
       "url": "/topics/data-science/tutorials/python-exceptions/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-exceptions",
@@ -2739,8 +2690,7 @@
       ],
       "tags": [
         "game",
-        "SQL",
-        "jupyter-notebook"
+        "SQL"
       ],
       "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/sql-game/tutorial.html",
@@ -2834,8 +2784,7 @@
       },
       "tags": [
         "SQL",
-        "Python",
-        "jupyter-notebook"
+        "Python"
       ],
       "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/sql-python/tutorial.html",
@@ -2938,9 +2887,7 @@
       },
       "tags": [
         "SQL",
-        "R",
-        "jupyter-notebook",
-        "rmarkdown-notebook"
+        "R"
       ],
       "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/sql-r/tutorial.html",
