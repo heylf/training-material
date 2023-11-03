@@ -221,7 +221,7 @@
         "bash",
         "jupyter-notebook"
       ],
-      "last_modified_at": "21-Dec-21",
+      "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/cli-advanced/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "cli-advanced",
@@ -320,7 +320,7 @@
         "language": "python",
         "pyolite": true
       },
-      "last_modified_at": "19-Apr-22",
+      "last_modified_at": "2022-04-19T13:04:09+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -456,7 +456,7 @@
       "tags": [
         "R"
       ],
-      "last_modified_at": "14-Dec-21",
+      "last_modified_at": "2021-12-14T14:52:15+00:00",
       "url": "/topics/data-science/tutorials/r-advanced/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "r-advanced",
@@ -603,7 +603,7 @@
         "SQL",
         "jupyter-notebook"
       ],
-      "last_modified_at": "19-May-22",
+      "last_modified_at": "2022-05-19T13:08:08+00:00",
       "url": "/topics/data-science/tutorials/sql-advanced/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-advanced",
@@ -759,7 +759,7 @@
         "bash",
         "jupyter-notebook"
       ],
-      "last_modified_at": "21-Dec-21",
+      "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/cli-basics/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "cli-basics",
@@ -851,7 +851,7 @@
         "bash",
         "jupyter-notebook"
       ],
-      "last_modified_at": "21-Dec-21",
+      "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/cli-bashcrawl/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "cli-bashcrawl",
@@ -948,11 +948,10 @@
       "priority": 3,
       "tags": [
         "R",
-        "jupyter-notebook",
-        "rmarkdown-notebook"
+        "jupyter-notebook"
       ],
       "license": "MIT",
-      "last_modified_at": "21-Dec-21",
+      "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/r-dplyr/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "r-dplyr",
@@ -1050,7 +1049,7 @@
         "language": "python",
         "pyolite": true
       },
-      "last_modified_at": "19-Apr-22",
+      "last_modified_at": "2022-04-19T13:04:09+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -1189,7 +1188,7 @@
         "SQL",
         "jupyter-notebook"
       ],
-      "last_modified_at": "21-Dec-21",
+      "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/sql-basic/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-basic",
@@ -1302,7 +1301,7 @@
         "SciWMS": "Scientific Workflow Management System",
         "DAG": "Directed Acyclic Graph"
       },
-      "last_modified_at": "14-Dec-21",
+      "last_modified_at": "2021-12-14T14:52:15+00:00",
       "url": "/topics/data-science/tutorials/snakemake/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "snakemake",
@@ -1400,7 +1399,7 @@
         "language": "python",
         "pyolite": true
       },
-      "last_modified_at": "19-Apr-22",
+      "last_modified_at": "2022-04-19T13:04:09+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -1486,7 +1485,7 @@
         }
       ],
       "priority": 10,
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "url": "/topics/data-science/tutorials/python-argparse/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "python-argparse",
@@ -1580,7 +1579,7 @@
       "notebook": {
         "language": "python"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -1669,7 +1668,7 @@
       "notebook": {
         "language": "python"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -1764,7 +1763,7 @@
       "notebook": {
         "language": "python"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -1864,7 +1863,7 @@
       "abbreviations": {
         "DRY": "Don't Repeat Yourself"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -1946,7 +1945,7 @@
       "notebook": {
         "language": "python"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -2044,7 +2043,7 @@
       "abbreviations": {
         "ORF": "Open Reading Frame"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -2141,7 +2140,7 @@
       "notebook": {
         "language": "python"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -2244,7 +2243,7 @@
       "notebook": {
         "language": "python"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -2328,7 +2327,7 @@
       "notebook": {
         "language": "python"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:09:05+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -2415,7 +2414,7 @@
       "notebook": {
         "language": "python"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -2502,7 +2501,7 @@
       "notebook": {
         "language": "python"
       },
-      "last_modified_at": "25-Apr-22",
+      "last_modified_at": "2022-04-25T09:25:02+00:00",
       "tags": [
         "jupyter-notebook"
       ],
@@ -2588,7 +2587,7 @@
           "erasmusplus"
         ]
       },
-      "last_modified_at": "01-Mar-22",
+      "last_modified_at": "2022-03-01T10:49:02+00:00",
       "url": "/topics/data-science/tutorials/r-basics/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "r-basics",
@@ -2742,7 +2741,7 @@
         "SQL",
         "jupyter-notebook"
       ],
-      "last_modified_at": "21-Dec-21",
+      "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/sql-game/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-game",
@@ -2837,7 +2836,7 @@
         "Python",
         "jupyter-notebook"
       ],
-      "last_modified_at": "21-Dec-21",
+      "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/sql-python/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-python",
@@ -2939,10 +2938,9 @@
       "tags": [
         "SQL",
         "R",
-        "jupyter-notebook",
-        "rmarkdown-notebook"
+        "jupyter-notebook"
       ],
-      "last_modified_at": "21-Dec-21",
+      "last_modified_at": "2021-12-21T10:14:03+00:00",
       "url": "/topics/data-science/tutorials/sql-r/tutorial.html",
       "topic_name": "data-science",
       "tutorial_name": "sql-r",
